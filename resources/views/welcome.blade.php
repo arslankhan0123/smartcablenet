@@ -97,28 +97,75 @@
 
 <!-- About Section -->
 <section id="about" class="about section">
-    <div class="container section-title" data-aos="fade-up">
-        <h2>About Us</h2>
+    <div class="container section-title text-center" data-aos="fade-up">
+        <span class="badge-sub-heading">WHO WE ARE</span>
+        <h2>About Smartcablenet</h2>
     </div>
 
     <div class="container">
-
-        <div class="row gy-4">
-
+        <div class="row gy-4 align-items-center">
             <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                 <h2>Smart & Effortless Connectivity Solutions</h2>
-                <p>We aggregate all your vital utility and telecom services in one accessible hub—ranging from television and high-speed internet to home phone, mobile contracts, cable setup, and seamless bill payments. Our mission is to simplify daily life by supplying dependable, cost-effective solutions tailored to your routine.</p>
-                <ul>
-                    <li><i class="bi bi-check2-circle"></i> <span>Safe and seamless payment solutions for all your recurring bills.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Dedicated to simplifying your daily routine through dependable digital connectivity.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Recognizing how essential fast and steady communication is in modern living.</span></li>
-                </ul>
+                <p class="lead text-secondary" style="font-size: 16px;">We aggregate all your vital utility and telecom services in one accessible hub—ranging from television and high-speed internet to home phone, mobile contracts, cable setup, and seamless bill payments.</p>
+                <div class="d-flex flex-column gap-3 mt-4">
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="icon-box flex-shrink-0" style="background: rgba(6,182,212,0.12); color: #06b6d4; width: 42px; height: 42px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 20px;">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1" style="color: #0f172a;">Hassle-Free Recurring Payments</h6>
+                            <p class="text-muted small mb-0">Safe and seamless payment solutions for all your monthly utility & telecom bills.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="icon-box flex-shrink-0" style="background: rgba(37,99,235,0.12); color: #2563eb; width: 42px; height: 42px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 20px;">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1" style="color: #0f172a;">Fast Digital Connectivity</h6>
+                            <p class="text-muted small mb-0">Dedicated to simplifying your daily routine through dependable high-speed digital connectivity.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="icon-box flex-shrink-0" style="background: rgba(139,92,246,0.12); color: #8b5cf6; width: 42px; height: 42px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 20px;">
+                            <i class="bi bi-globe2"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1" style="color: #0f172a;">Nationwide Communication Coverage</h6>
+                            <p class="text-muted small mb-0">Recognizing how essential fast and steady communication is in modern living.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <p>Leveraging deep industry expertise, we recognize how critical uninterrupted communication is today. That is why we deliver ultra-fast broadband, crystal-clear voice lines, rich television packages, and secure bill processing—crafted around your lifestyle and financial plan.</p>
-                <p>We are committed to delivering premium quality with upfront, transparent pricing and responsive customer support whenever assistance is required. Whether managing tasks at home, working remotely, or on the move, we keep you connected effortlessly.</p>
-                <p>Our core philosophy revolves around a simple commitment: transforming your digital experience into something smooth, dependable, and hassle-free. Your total satisfaction remains our primary motivation every single day.</p>
+                <div class="p-4 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%); border: 1px solid #e2e8f0;">
+                    <p class="mb-3" style="color: #475569;">Leveraging deep industry expertise, we recognize how critical uninterrupted communication is today. That is why we deliver ultra-fast broadband, crystal-clear voice lines, rich television packages, and secure bill processing—crafted around your lifestyle and financial plan.</p>
+                    <p class="mb-3" style="color: #475569;">We are committed to delivering premium quality with upfront, transparent pricing and responsive customer support whenever assistance is required. Whether managing tasks at home, working remotely, or on the move, we keep you connected effortlessly.</p>
+                    <p class="mb-0 fw-semibold" style="color: #0f172a;">Our core philosophy revolves around a simple commitment: transforming your digital experience into something smooth, dependable, and hassle-free. Your total satisfaction remains our primary motivation every single day.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stat Highlight Cards -->
+        <div class="row g-4 mt-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-md-4">
+                <div class="stat-card">
+                    <h3>100K+</h3>
+                    <p>Connected Households</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-card">
+                    <h3>99.9%</h3>
+                    <p>Network Uptime Guarantee</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-card">
+                    <h3>24/7</h3>
+                    <p>Expert Support Access</p>
+                </div>
             </div>
         </div>
     </div>
@@ -130,6 +177,7 @@
         <div class="row gy-4">
             <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
                 <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+                    <span class="badge-sub-heading">WHY SMARTCABLENET</span>
                     <h3><span>Why </span><strong>Choose</strong> <span>Us</span></h3>
                     <p>We simplify modern connectivity by bringing all your key telecom and utility needs together in one place. From high-speed internet and TV to mobile coverage and quick bill payments, we deliver swift, cost-effective, and dependable solutions backed by top-tier customer assistance. Your convenience and complete satisfaction drive everything we do.</p>
                 </div>
@@ -160,7 +208,7 @@
                 </div>
             </div>
             <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-                <img src="{{ asset('landingPage/assets/img/why-us.png') }}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+                <img src="{{ asset('landingPage/assets/img/why-us.png') }}" class="img-fluid rounded-4 shadow-sm" alt="" data-aos="zoom-in" data-aos-delay="100">
             </div>
         </div>
     </div>
@@ -171,22 +219,22 @@
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
+        <div class="row align-items-center">
 
             <div class="col-lg-6 d-flex align-items-center">
-                <img src="{{ asset('landingPage/assets/img/skills.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('landingPage/assets/img/skills.png') }}" class="img-fluid rounded-4" alt="">
             </div>
 
             <div class="col-lg-6 pt-4 pt-lg-0 content">
-
-                <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3> -->
-                <p class="fst-italic">We specialize in delivering fast, dependable, and intuitive digital telecom services. Our experienced team is dedicated to providing smooth solutions that empower households and enterprises with seamless, highly efficient connectivity.</p>
+                <span class="badge-sub-heading">OUR CAPABILITIES</span>
+                <h3>High Performance Service Reliability</h3>
+                <p class="fst-italic text-secondary mb-4">We specialize in delivering fast, dependable, and intuitive digital telecom services. Our experienced team is dedicated to providing smooth solutions that empower households and enterprises with seamless, highly efficient connectivity.</p>
 
                 <div class="skills-content skills-animation">
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Internet Setup</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -194,7 +242,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Wi-Fi Installation</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -205,7 +253,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>TV Services</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -213,7 +261,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Cable Setup</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -224,7 +272,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Mobile Plans</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -232,7 +280,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Landline Service</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -243,7 +291,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Bill Payments</span> <i class="val">99%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="99"></div>
@@ -251,7 +299,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Bundle Offers</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -262,7 +310,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Device Support</span> <i class="val">100%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -270,7 +318,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="progress">
+                            <div class="progress mb-3">
                                 <span class="skill"><span>Tech Support</span> <i class="val">99%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="99"></div>
@@ -278,21 +326,29 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="progress">
-                        <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-                        <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+@php
+    $iconMap = [
+        'TV Services' => 'bi-tv-fill',
+        'Internet Service' => 'bi-wifi',
+        'Home Phone Service' => 'bi-telephone-fill',
+        'Mobile Plans' => 'bi-phone-fill',
+        'Cable Setup & Support' => 'bi-tools',
+        'Bill Payment Services' => 'bi-credit-card-2-front-fill',
+        'Bundle Packages' => 'bi-box-seam-fill',
+        'Customer Support' => 'bi-headset',
+    ];
+@endphp
+
 <!-- Services Section -->
 <section id="services" class="services section light-background">
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title text-center" data-aos="fade-up">
+        <span class="badge-sub-heading">WHAT WE PROVIDE</span>
         <h2>Services</h2>
         <p>We offer a comprehensive suite of telecommunications and utility management services, spanning HD television, high-speed internet, landlines, and wireless mobile plans. From cable installation to secure bill payments, we ensure maximum convenience. Whether you are transitioning to a better provider or launching a brand-new connection, our team provides prompt support and dependable choices every step of the way.</p>
     </div>
@@ -302,80 +358,23 @@
             @foreach ($services as $service)
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                 <a href="{{ route('services.show', $service->id) }}" class="w-100 text-decoration-none">
-                    <div class="service-item position-relative">
-                        <div class="icon"><i class="bi bi-activity icon"></i></div>
-                        <h4>{{ $service->title }}</h4>
-                        <p style="color: black !important">{!! $service->short_description !!}</p>
+                    <div class="service-item position-relative h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon mb-3">
+                                <i class="bi {{ $iconMap[$service->title] ?? 'bi-broadcast' }}"></i>
+                            </div>
+                            <h4>{{ $service->title }}</h4>
+                            <p style="color: #475569 !important">{!! $service->short_description !!}</p>
+                        </div>
+                        <div class="service-link">
+                            <span>Explore Service</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             @endforeach
-
-            <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-activity icon"></i></div>
-                    <h4>High-Speed Internet</h4>
-                    <p>Stay online with stable and fast connections ideal for streaming, gaming, remote work, or everyday browsing.</p>
-                </div>
-            </div> -->
-
-            <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                    <h4>TV & Entertainment</h4>
-                    <p>Access local and international channels with flexible packages, HD/4K support, and streaming-ready setups.</p>
-                </div>
-            </div> -->
-
-            <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                    <h4>Home Phone Service</h4>
-                    <p>Crystal-clear calling with features like caller ID, voicemail, and unlimited local & long-distance packages.</p>
-                </div>
-            </div> -->
-
-            <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                    <h4>Mobile Plans</h4>
-                    <p>Affordable SIM-only or device+plan combos with unlimited talk, text, and data options. Keep your current number too!</p>
-                </div>
-            </div> -->
         </div>
-        <!-- <div class="row gy-4 mt-3">
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-activity icon"></i></div>
-                    <h4>Cable Setup & Support</h4>
-                    <p>We handle new installations or upgrades, helping you choose the right cable plan for your needs.</p>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                    <h4>Bundle Packages</h4>
-                    <p>Save more when you combine internet, TV, and phone into one customized bundle.</p>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                    <h4>Bill Payment Services</h4>
-                    <p>Pay utility, internet, and other bills through a secure, easy-to-use system. No long lines, no missed due dates.</p>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-                <div class="service-item position-relative">
-                    <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                    <h4>Customer Support</h4>
-                    <p>Our support team is available 24/7 to help with setup, questions, or troubleshooting.</p>
-                </div>
-            </div>
-        </div> -->
     </div>
 </section>
 
@@ -397,7 +396,8 @@
 
 <!-- Faq 2 Section -->
 <section id="faq-2" class="faq-2 section light-background">
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title text-center" data-aos="fade-up">
+        <span class="badge-sub-heading">HAVE QUESTIONS?</span>
         <h2>Frequently Asked Questions</h2>
         <p>Got questions? We have answers! Explore responses to the most frequently asked queries about our telecom packages, bill processing, and technical support to guide your decisions with clarity.</p>
     </div>
@@ -467,7 +467,8 @@
 
 <!-- Contact Section -->
 <section id="contact" class="contact section">
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title text-center" data-aos="fade-up">
+        <span class="badge-sub-heading">REACH OUT TO US</span>
         <h2>Get in Touch</h2>
         <p>Have questions or need assistance? Our support team is ready to help you with any inquiries regarding broadband, television, telephone plans, or billing. Feel free to contact us via phone or online message!</p>
     </div>
