@@ -498,7 +498,7 @@
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
                             <h3>Email Us</h3>
-                            <p>support@smartcablenet.com</p>
+                            <p>sales@smartcablenet.com</p>
                         </div>
                     </div>
 
