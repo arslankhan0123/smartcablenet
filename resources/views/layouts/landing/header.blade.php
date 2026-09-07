@@ -2,7 +2,8 @@
   <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
     <a href="{{route('welcome')}}" class="logo d-flex align-items-center">
-      <h1 class="sitename">WaveSync Ny LLC</h1>
+      <img src="{{ asset('landingPage/assets/img/logo.png') }}" alt="Smartcablenet Logo" style="max-height: 44px; border-radius: 8px; margin-right: 10px;">
+      <span class="sitename brand-title" style="font-size: 25px; font-weight: 800; letter-spacing: -0.5px; color: #ffffff;">Smart<span style="color: #06b6d4;">cablenet</span></span>
     </a>
 
     <!-- Centered Nav -->

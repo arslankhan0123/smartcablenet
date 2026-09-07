@@ -1,12 +1,12 @@
 @extends('layouts.landing.main')
-@section('title', 'Home - Wavesync')
+@section('title', 'Service Details - Smartcablenet')
 @section('content')
 <section id="hero" class="hero section dark-background">
     <div class="container position-relative">
         <h1 class="hero-title" data-aos="zoom-in" data-aos-delay="200">
-            Empower Your Business with our {{ $service->title }}
+            Empower Your Life with Our {{ $service->title }}
         </h1>
-        <p>We offer high-speed internet, crystal-clear TV, reliable phone services, mobile plans, cable connections, and easy bill payments—all under one roof. Experience convenience, reliability, and savings with us today!</p>
+        <p>Get top-tier high-speed internet, premium HD TV, dependable landline calling, flexible mobile plans, cable connections, and hassle-free bill payments in a single platform. Enjoy seamless connectivity, maximum reliability, and great value today!</p>
     </div>
 </section>
 <!-- Service Details Section -->

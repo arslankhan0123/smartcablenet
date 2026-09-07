@@ -1,5 +1,5 @@
 @extends('layouts.landing.main')
-@section('title', 'Home - Wavesync')
+@section('title', 'Home - Smartcablenet')
 @section('content')
 <style>
     .service-item {
@@ -20,8 +20,8 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                <h1>All Your Digital Services in One Place</h1>
-                <p>We offer high-speed internet, crystal-clear TV, reliable phone services, mobile plans, cable connections, and easy bill payments—all under one roof. Experience convenience, reliability, and savings with us today!</p>
+                <h1>Complete Digital & Telecom Solutions Under One Roof</h1>
+                <p>Get top-tier high-speed internet, premium HD TV, dependable landline calling, flexible mobile plans, cable connections, and hassle-free bill payments in a single platform. Enjoy seamless connectivity, maximum reliability, and great value today!</p>
                 <div class="d-flex gap-2">
                     <a href="tel:+18336217696" class="btn-get-started">(833) 621-7696</a>
                     <a href="#contact" class="btn-get-started ml-2">Contact</a>
@@ -106,19 +106,19 @@
         <div class="row gy-4">
 
             <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-                <h2>Simple Solutions for a Connected Life</h2>
-                <p>We provide all the essential services you need in one place. TV, internet, home phone, mobile services, cable, and easy bill payments. Our goal is to make your life easier by offering reliable and affordable solutions for your everyday needs.</p>
+                <h2>Smart & Effortless Connectivity Solutions</h2>
+                <p>We aggregate all your vital utility and telecom services in one accessible hub—ranging from television and high-speed internet to home phone, mobile contracts, cable setup, and seamless bill payments. Our mission is to simplify daily life by supplying dependable, cost-effective solutions tailored to your routine.</p>
                 <ul>
-                    <li><i class="bi bi-check2-circle"></i> <span>We provide secure and hassle free options for paying your bills.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Our goal is to make your life easier with reliable digital services.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>We understand the importance of staying connected in today’s world.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Safe and seamless payment solutions for all your recurring bills.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Dedicated to simplifying your daily routine through dependable digital connectivity.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Recognizing how essential fast and steady communication is in modern living.</span></li>
                 </ul>
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <p>With our experience in the industry, we understand how important it is to stay connected. That’s why we offer fast internet, clear calling, great TV packages, and secure payment options, all designed to fit your lifestyle and budget.</p>
-                <p>We work hard to give you the best service, with no hidden fees and quick support whenever you need it. Whether you’re at home, at work, or on the go, we help you stay connected with ease.</p>
-                <p>At the core of everything we do is a simple promise: We make your digital life easier, more reliable, and stress-free. Your satisfaction is what drives us every day.</p>
+                <p>Leveraging deep industry expertise, we recognize how critical uninterrupted communication is today. That is why we deliver ultra-fast broadband, crystal-clear voice lines, rich television packages, and secure bill processing—crafted around your lifestyle and financial plan.</p>
+                <p>We are committed to delivering premium quality with upfront, transparent pricing and responsive customer support whenever assistance is required. Whether managing tasks at home, working remotely, or on the move, we keep you connected effortlessly.</p>
+                <p>Our core philosophy revolves around a simple commitment: transforming your digital experience into something smooth, dependable, and hassle-free. Your total satisfaction remains our primary motivation every single day.</p>
             </div>
         </div>
     </div>
@@ -131,29 +131,29 @@
             <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
                 <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
                     <h3><span>Why </span><strong>Choose</strong> <span>Us</span></h3>
-                    <p>We make digital living easier by offering all essential services under one roof. Whether it's internet, TV, mobile, or bill payments. We deliver fast, affordable, and reliable solutions with excellent customer support. Our goal is your satisfaction and convenience.</p>
+                    <p>We simplify modern connectivity by bringing all your key telecom and utility needs together in one place. From high-speed internet and TV to mobile coverage and quick bill payments, we deliver swift, cost-effective, and dependable solutions backed by top-tier customer assistance. Your convenience and complete satisfaction drive everything we do.</p>
                 </div>
                 <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
                     <div class="faq-item faq-active">
-                        <h3><span>01</span>All-in-One Convenience</h3>
+                        <h3><span>01</span>Streamlined Single-Source Access</h3>
                         <div class="faq-content">
-                            <p>We provide TV, internet, phone, mobile, and bill payment services, all in one place, so you don’t need to manage multiple providers.</p>
+                            <p>Access television, broadband, landline, cellular, and bill management through one centralized service, eliminating the hassle of dealing with multiple vendors.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
 
                     <div class="faq-item">
-                        <h3><span>02</span>Fast & Reliable Services</h3>
+                        <h3><span>02</span>High-Speed & Dependable Performance</h3>
                         <div class="faq-content">
-                            <p>Our high-speed internet and clear voice connections ensure you stay connected without interruptions or delays.</p>
+                            <p>Our blazing broadband speeds and HD voice clarity keep your communications running smoothly without lag or unexpected outages.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
 
                     <div class="faq-item">
-                        <h3><span>03</span>Affordable & Transparent Pricing</h3>
+                        <h3><span>03</span>Clear, Honest & Budget-Friendly Rates</h3>
                         <div class="faq-content">
-                            <p>We offer competitive pricing with no hidden fees. What you see is what you pay simple, honest, and fair.</p>
+                            <p>We maintain upfront pricing structures free of hidden surprises—delivering straightforward, fair, and competitive plans for every budget.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
@@ -180,7 +180,7 @@
             <div class="col-lg-6 pt-4 pt-lg-0 content">
 
                 <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3> -->
-                <p class="fst-italic">We are experts in delivering reliable, fast, and user-friendly digital services. Our team is skilled in providing seamless solutions that keep homes and businesses connected with ease and efficiency.</p>
+                <p class="fst-italic">We specialize in delivering fast, dependable, and intuitive digital telecom services. Our experienced team is dedicated to providing smooth solutions that empower households and enterprises with seamless, highly efficient connectivity.</p>
 
                 <div class="skills-content skills-animation">
 
@@ -294,7 +294,7 @@
 <section id="services" class="services section light-background">
     <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>We provide a full range of telecom and utility services, including TV, high-speed internet, home phone, and mobile plans, all in one place. From cable setups to secure bill payments, we make it easy and convenient. Whether you're switching providers or setting up a new service, we’re here to help with fast support and trusted options.</p>
+        <p>We offer a comprehensive suite of telecommunications and utility management services, spanning HD television, high-speed internet, landlines, and wireless mobile plans. From cable installation to secure bill payments, we ensure maximum convenience. Whether you are transitioning to a better provider or launching a brand-new connection, our team provides prompt support and dependable choices every step of the way.</p>
     </div>
 
     <div class="container">
@@ -385,8 +385,8 @@
     <div class="container">
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
             <div class="col-xl-9 text-center text-xl-start">
-                <h3>Call To Action</h3>
-                <p>Need internet, TV, phone, or mobile services? We’re here to help! Get started today with easy, affordable, and reliable solutions all in one place. Contact us now to enjoy stress-free service.</p>
+                <h3>Ready to Elevate Your Digital Experience?</h3>
+                <p>Looking for dependable internet, television, landline, or mobile solutions? We are at your service! Take advantage of affordable, high-quality, and unified telecom packages today. Reach out now for a smooth and worry-free setup!</p>
             </div>
             <div class="col-xl-3 cta-btn-container text-center">
                 <a class="cta-btn align-middle" href="tel:+18336217696">(833) 621-7696</a>
@@ -399,7 +399,7 @@
 <section id="faq-2" class="faq-2 section light-background">
     <div class="container section-title" data-aos="fade-up">
         <h2>Frequently Asked Questions</h2>
-        <p>Have questions? We’re here to help! Below are some of the most common questions our customers ask. From service details to billing and support, find quick and clear answers to get started with confidence.</p>
+        <p>Got questions? We have answers! Explore responses to the most frequently asked queries about our telecom packages, bill processing, and technical support to guide your decisions with clarity.</p>
     </div>
     <div class="container">
         <div class="row justify-content-center">
@@ -407,54 +407,54 @@
                 <div class="faq-container">
                     <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
                         <i class="faq-icon bi bi-question-circle"></i>
-                        <h3>1. What services do you offer?</h3>
+                        <h3>1. Which digital and telecom services do you provide?</h3>
                         <div class="faq-content">
-                            <p>We offer internet, TV, home phone, mobile plans, cable services, and bill payment options—all in one place.</p>
+                            <p>We deliver high-speed broadband, television packages, home telephone connections, mobile plans, cable configuration, and utility bill processing within a single platform.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
 
                     <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
                         <i class="faq-icon bi bi-question-circle"></i>
-                        <h3>2. Can I bundle services to save money?</h3>
+                        <h3>2. Is it possible to bundle multiple services for extra savings?</h3>
                         <div class="faq-content">
-                            <p>Yes! We offer bundle packages so you can combine internet, TV, and phone services at a discounted price.</p>
+                            <p>Absolutely! Combining internet, TV, and landline services into a customized bundle package unlocks significant monthly discounts.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
 
                     <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
                         <i class="faq-icon bi bi-question-circle"></i>
-                        <h3>3. How can I pay my bills?</h3>
+                        <h3>3. What options are available for bill payment?</h3>
                         <div class="faq-content">
-                            <p>You can pay your bills easily through our secure online payment system or visit our service center.</p>
+                            <p>You can conveniently settle your invoices using our encrypted online payment portal or by visiting an authorized service location.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
 
                     <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
                         <i class="faq-icon bi bi-question-circle"></i>
-                        <h3>4. How fast is your internet?</h3>
+                        <h3>4. What broadband speeds can I expect?</h3>
                         <div class="faq-content">
-                            <p>We provide high-speed internet with different plans to match your needs—perfect for streaming, working, or gaming.</p>
+                            <p>We offer tier-based high-speed internet packages tailored to your demands—ideal for 4K streaming, remote work, online gaming, and multi-device households.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
 
                     <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
                         <i class="faq-icon bi bi-question-circle"></i>
-                        <h3>Do you offer customer support?</h3>
+                        <h3>5. Do you provide ongoing customer support?</h3>
                         <div class="faq-content">
-                            <p>Yes, our friendly support team is available 24/7 to help you with any questions or issues.</p>
+                            <p>Yes, our dedicated customer service representatives are accessible around the clock (24/7) to resolve inquiries and technical concerns promptly.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
 
                     <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
                         <i class="faq-icon bi bi-question-circle"></i>
-                        <h3>How do I get started?</h3>
+                        <h3>6. How can I enroll or request a new service?</h3>
                         <div class="faq-content">
-                            <p>To get started, just call us at the number below.</p>
+                            <p>Getting started is easy! Simply give us a call at the hotline below to speak with an advisor.</p>
                             <a href="tel:+18336217696" class="btn btn-primary mt-2">Call Us at (833) 621-7696</a>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
@@ -468,8 +468,8 @@
 <!-- Contact Section -->
 <section id="contact" class="contact section">
     <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Need help or have a question? Our team is here to assist you with anything related to our services. Whether it's about internet, TV, phone, or billing, feel free to reach out. We're just a call or message away!</p>
+        <h2>Get in Touch</h2>
+        <p>Have questions or need assistance? Our support team is ready to help you with any inquiries regarding broadband, television, telephone plans, or billing. Feel free to contact us via phone or online message!</p>
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -498,7 +498,7 @@
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
                             <h3>Email Us</h3>
-                            <p>support@wavesync-ny-llc.com</p>
+                            <p>support@smartcablenet.com</p>
                         </div>
                     </div>
 

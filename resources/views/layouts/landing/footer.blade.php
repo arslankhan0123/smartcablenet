@@ -3,10 +3,11 @@
           <div class="row gy-4">
               <div class="col-lg-4 col-md-6 footer-about">
                   <a href="{{route('welcome')}}" class="d-flex align-items-center">
-                      <span class="sitename">WaveSync Ny LLC</span>
+                      <img src="{{ asset('landingPage/assets/img/logo.png') }}" alt="Smartcablenet Logo" style="max-height: 48px; border-radius: 8px; margin-right: 10px;">
+                      <span class="sitename brand-title" style="font-size: 26px; font-weight: 800; color: #ffffff;">Smart<span style="color: #06b6d4;">cablenet</span></span>
                   </a>
                   <div class="footer-contact pt-3">
-                      <p>We offer high-speed internet, crystal-clear TV, reliable phone services, mobile plans, cable connections, and easy bill payments all under one roof. Experience convenience, reliability, and savings with us today!</p>
+                      <p>Your trusted partner for high-speed internet, digital TV, dependable landline, mobile options, cable solutions, and effortless bill payments. Experience unmatched convenience, top reliability, and great savings today!</p>
                   </div>
               </div>
 
@@ -49,11 +50,11 @@
 
               <div class="col-lg-4 col-md-12">
                   <h4>Address</h4>
-                  <p>Get in touch with us using the contact details below—we’re here to help!</p>
+                  <p>Reach out to us through any of the contact details below—we are always happy to assist!</p>
                   <div class="footer-contact">
                       <p><strong>Address:</strong>7811 5th Ave #33 Brooklyn, NY 11209</p>
                       <p><strong>Phone:</strong> <span>(833) 621-7696</span></p>
-                      <p><strong>Email:</strong> <span>support@wavesync-ny-llc.com</span></p>
+                      <p><strong>Email:</strong> <span>support@smartcablenet.com</span></p>
                   </div>
                   
                   <!-- Payment Methods -->
@@ -71,6 +72,6 @@
           </div>
       </div>
       <div class="container copyright text-center mt-4">
-          <p><span>We are an independent service provider and are not affiliated with or endorsed by <strong class="px-1 sitename">Verizon, AT&T, Spectrum, Cox, Xfinity, or any other telecommunications provider</strong> . All product names, logos, and trademarks are the property of their respective owners and are used for identification purposes only.</span></p>
+          <p><span>We operate as an independent service provider and have no official affiliation with, authorization from, or endorsement by <strong class="px-1 sitename">Verizon, AT&T, Spectrum, Cox, Xfinity, or any other telecommunications carrier</strong>. All brand names, logos, and registered trademarks belong to their respective owners and are cited strictly for informational and reference purposes.</span></p>
       </div>
   </footer>

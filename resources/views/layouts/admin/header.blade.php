@@ -6,22 +6,22 @@
                 <a href="{{route('dashboard')}}" class="logo logo-dark">
                     <span class="logo-sm">
                         <!-- <img src="{{ asset('landingPage/assets/img/logo/logo5.png') }}" alt="" height="22"> -->
-                        <h4>Wavesync</h4>
+                        <h4>Smartcablenet</h4>
                     </span>
                     <span class="logo-lg">
                         <!-- <img src="{{ asset('landingPage/assets/img/logo/logo5.png') }}" alt="" height="22"> -->
-                        <h4>Wavesync</h4>
+                        <h4>Smartcablenet</h4>
                     </span>
                 </a>
 
                 <a href="{{route('dashboard')}}" class="logo logo-light">
                     <span class="logo-sm">
                         <!-- <img src="{{ asset('landingPage/assets/img/logo/logo5.png') }}" alt="" height="22"> -->
-                        <h4>Wavesync</h4>
+                        <h4>Smartcablenet</h4>
                     </span>
                     <span class="logo-lg">
                         <!-- <img src="{{ asset('landingPage/assets/img/logo/logo5.png') }}" alt="" height="22"> -->
-                        <h4>Wavesync</h4>
+                        <h4>Smartcablenet</h4>
                     </span>
                 </a>
             </div>
