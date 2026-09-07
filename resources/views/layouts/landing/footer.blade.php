@@ -54,7 +54,7 @@
                   <div class="footer-contact">
                       <p><strong>Address:</strong>7811 5th Ave #33 Brooklyn, NY 11209</p>
                       <p><strong>Phone:</strong> <span>(833) 621-7696</span></p>
-                      <p><strong>Email:</strong> <span>support@smartcablenet.com</span></p>
+                      <p><strong>Email:</strong> <span>sales@smartcablenet.com</span></p>
                   </div>
                   
                   <!-- Payment Methods -->

@@ -514,7 +514,7 @@
             </div>
 
             <div class="col-lg-7">
-                <form id="contact-form" action="#" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <form id="contact-form" action="{{ route('contact.store') }}" method="post" class="custom-contact-form" data-aos="fade-up" data-aos-delay="200">
                     @csrf
                     <div class="row gy-4">
 
@@ -539,11 +539,9 @@
                         </div>
 
                         <div class="col-md-12 text-center">
-                            <div class="loading">Loading</div>
-                            <!-- <div class="error-message"></div> -->
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                            <button type="submit">Send Message</button>
+                            <button type="submit" class="btn text-white fw-bold px-4 py-2 submit-btn" style="background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%); border-radius: 30px; border: none;">
+                                <span>Send Message</span>
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -564,48 +562,52 @@
 
             let form = $(this);
             let formData = new FormData(this);
-            let submitBtn = form.find('.submit-btn');
+            let submitBtn = form.find('button[type="submit"]');
+            let originalHtml = submitBtn.html();
 
-            // Disable button to prevent double click
-            submitBtn.prop('disabled', true);
+            // Disable button immediately to prevent double submissions and show loading state
+            submitBtn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> Sending...');
 
             $.ajax({
-                url: "{{route('contact.store')}}",
+                url: "{{ route('contact.store') }}",
                 method: "POST",
                 data: formData,
                 processData: false,
                 contentType: false,
-                beforeSend: function() {
-                    $('.loading').show();
-                },
                 success: function(response) {
-                    $('.loading').hide();
                     Swal.fire({
                         icon: 'success',
                         title: 'Message Sent',
-                        text: 'Your message has been sent successfully!',
+                        text: response.message || 'Your message has been sent successfully!',
+                        confirmButtonColor: '#2563eb'
                     });
 
                     form[0].reset();
                 },
                 error: function(xhr) {
-                    $('.loading').hide();
                     let errors = xhr.responseJSON?.errors;
                     let errorMsg = "Something went wrong. Please try again.";
 
                     if (errors) {
-                        errorMsg = Object.values(errors).join('\n');
+                        let errList = [];
+                        $.each(errors, function(key, messages) {
+                            errList.push(messages.join(' '));
+                        });
+                        errorMsg = errList.join('<br>');
+                    } else if (xhr.responseJSON?.message) {
+                        errorMsg = xhr.responseJSON.message;
                     }
 
                     Swal.fire({
                         icon: 'error',
                         title: 'Error',
-                        text: errorMsg
+                        html: errorMsg,
+                        confirmButtonColor: '#2563eb'
                     });
                 },
                 complete: function() {
-                    // Always re-enable the button after request
-                    submitBtn.prop('disabled', false);
+                    // Always re-enable button after request completes (success or error)
+                    submitBtn.prop('disabled', false).html(originalHtml);
                 }
             });
         });
