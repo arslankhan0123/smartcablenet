@@ -3,10 +3,11 @@
 @section('content')
 <section id="hero" class="hero section dark-background">
     <div class="container position-relative">
+        <span class="badge-sub-heading mb-3">SERVICE OVERVIEW</span>
         <h1 class="hero-title" data-aos="zoom-in" data-aos-delay="200">
             Empower Your Life with Our {{ $service->title }}
         </h1>
-        <p>Get top-tier high-speed internet, premium HD TV, dependable landline calling, flexible mobile plans, cable connections, and hassle-free bill payments in a single platform. Enjoy seamless connectivity, maximum reliability, and great value today!</p>
+        <p class="mt-3">Get top-tier high-speed internet, premium HD TV, dependable landline calling, flexible mobile plans, cable connections, and hassle-free bill payments in a single platform. Enjoy seamless connectivity, maximum reliability, and great value today!</p>
     </div>
 </section>
 <!-- Service Details Section -->
