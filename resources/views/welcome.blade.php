@@ -379,16 +379,22 @@
 </section>
 
 <!-- Call To Action Section -->
-<section id="call-to-action" class="call-to-action section dark-background">
-    <img src="{{ asset('landingPage/assets/img/cta-bg.webp') }}" alt="">
-    <div class="container">
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-xl-9 text-center text-xl-start">
-                <h3>Ready to Elevate Your Digital Experience?</h3>
-                <p>Looking for dependable internet, television, landline, or mobile solutions? We are at your service! Take advantage of affordable, high-quality, and unified telecom packages today. Reach out now for a smooth and worry-free setup!</p>
-            </div>
-            <div class="col-xl-3 cta-btn-container text-center">
-                <a class="cta-btn align-middle" href="tel:+18336217696">(833) 621-7696</a>
+<section id="call-to-action" class="call-to-action section dark-background my-4">
+    <img src="{{ asset('landingPage/assets/img/cta-bg.webp') }}" alt="" class="cta-bg-img">
+    <div class="container position-relative z-2">
+        <div class="p-4 p-md-5 rounded-4 shadow-lg position-relative overflow-hidden" style="background: rgba(9, 14, 26, 0.75); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.12);">
+            <div class="row align-items-center" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-xl-9 text-center text-xl-start">
+                    <span class="badge-sub-heading text-info bg-transparent border border-info mb-3">GET CONNECTED TODAY</span>
+                    <h3 class="text-white fw-bold display-6 mb-3">Ready to Elevate Your Digital Experience?</h3>
+                    <p class="text-light lead fs-6 mb-0" style="max-width: 800px; color: #cbd5e1 !important; line-height: 1.7;">Looking for dependable internet, television, landline, or mobile solutions? We are at your service! Take advantage of affordable, high-quality, and unified telecom packages today. Reach out now for a smooth and worry-free setup!</p>
+                </div>
+                <div class="col-xl-3 cta-btn-container text-center mt-4 mt-xl-0">
+                    <a class="cta-btn align-middle btn-lg fs-5 px-4 py-3 text-white fw-bold shadow-lg d-inline-flex align-items-center gap-2 justify-content-center" href="tel:+18336217696" style="background: linear-gradient(135deg, #06b6d4 0%, #2563eb 100%); border-radius: 30px; text-decoration: none; border: none;">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>(833) 621-7696</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
