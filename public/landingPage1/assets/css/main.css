@@ -3830,3 +3830,205 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* =========================================================
+   Mobile Navigation Fix (Full Screen Overlay & Z-Index)
+   ========================================================= */
+@media (max-width: 1199px) {
+  /* Ensure main sections stay at lower stacking context */
+  main,
+  section,
+  .section,
+  .hero,
+  [data-aos] {
+    z-index: 1 !important;
+  }
+
+  /* Mobile Nav Toggle Button (Hamburger / Close) */
+  .mobile-nav-toggle {
+    color: #ffffff !important;
+    font-size: 28px;
+    line-height: 1;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 999999 !important;
+  }
+
+  /* Base navmenu in mobile */
+  .navmenu ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    inset: 70px 15px 20px 15px;
+    padding: 20px 10px;
+    margin: 0;
+    border-radius: 16px;
+    background-color: #0f172a !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    overflow-y: auto;
+    transition: 0.3s ease;
+    z-index: 1000002 !important;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.7) !important;
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    color: #ffffff !important;
+    padding: 14px 20px !important;
+    font-family: var(--nav-font);
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    transition: all 0.3s ease;
+  }
+
+  .navmenu li:last-child a {
+    border-bottom: none;
+  }
+
+  .navmenu a:hover,
+  .navmenu .active,
+  .navmenu .active:focus {
+    color: #06b6d4 !important;
+    background-color: rgba(6, 182, 212, 0.1);
+    border-radius: 8px;
+  }
+
+  /* When Mobile Menu is OPEN (.mobile-nav-active) */
+  body.mobile-nav-active {
+    overflow: hidden !important;
+  }
+
+  body.mobile-nav-active #header,
+  body.mobile-nav-active .header {
+    z-index: 999999 !important;
+    transform: translate3d(0, 0, 999999px) !important;
+    -webkit-transform: translate3d(0, 0, 999999px) !important;
+  }
+
+  body.mobile-nav-active .mobile-nav-toggle {
+    color: #ffffff !important;
+    position: fixed !important;
+    font-size: 32px !important;
+    top: 18px !important;
+    right: 20px !important;
+    margin-right: 0 !important;
+    z-index: 1000005 !important;
+    transform: translate3d(0, 0, 1000005px) !important;
+    -webkit-transform: translate3d(0, 0, 1000005px) !important;
+  }
+
+  body.mobile-nav-active .navmenu {
+    position: fixed !important;
+    overflow-y: auto !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(9, 14, 26, 0.96) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    transition: 0.3s ease !important;
+    z-index: 1000000 !important;
+    transform: translate3d(0, 0, 1000000px) !important;
+    -webkit-transform: translate3d(0, 0, 1000000px) !important;
+  }
+
+  body.mobile-nav-active .navmenu>ul {
+    display: block !important;
+  }
+
+  body.mobile-nav-active main,
+  body.mobile-nav-active .hero,
+  body.mobile-nav-active [data-aos] {
+    animation: none !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    z-index: 1 !important;
+  }
+}
+
+/* =========================================================
+   Mobile Header Sizing & Alignment Adjustments
+   ========================================================= */
+@media (max-width: 1199px) {
+  .header .logo {
+    order: 1 !important;
+  }
+
+  .header .btn-getstarted {
+    order: 2 !important;
+    margin-left: auto !important;
+    margin-right: 10px !important;
+    white-space: nowrap !important;
+  }
+
+  .header .navmenu {
+    order: 3 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mobile-nav-toggle {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 8px 0 !important;
+  }
+
+  .header .logo img {
+    max-height: 32px !important;
+    margin-right: 6px !important;
+  }
+
+  .header .logo .brand-title {
+    font-size: 18px !important;
+  }
+
+  .header .btn-getstarted {
+    font-size: 12px !important;
+    padding: 6px 12px !important;
+    margin-left: auto !important;
+    margin-right: 8px !important;
+    white-space: nowrap !important;
+    border-radius: 30px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    padding: 6px 0 !important;
+  }
+
+  .header .logo img {
+    max-height: 28px !important;
+    margin-right: 4px !important;
+  }
+
+  .header .logo .brand-title {
+    font-size: 15px !important;
+  }
+
+  .header .btn-getstarted {
+    font-size: 11px !important;
+    padding: 5px 10px !important;
+    margin-left: auto !important;
+    margin-right: 6px !important;
+    white-space: nowrap !important;
+  }
+
+  .mobile-nav-toggle {
+    font-size: 24px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}

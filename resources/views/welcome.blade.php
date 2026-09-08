@@ -23,7 +23,7 @@
                 <h1>Complete Digital & Telecom Solutions Under One Roof</h1>
                 <p>Get top-tier high-speed internet, premium HD TV, dependable landline calling, flexible mobile plans, cable connections, and hassle-free bill payments in a single platform. Enjoy seamless connectivity, maximum reliability, and great value today!</p>
                 <div class="d-flex gap-2">
-                    <a href="tel:123456789" class="btn-get-started">123456789</a>
+                    <a href="tel:+18664057557" class="btn-get-started">(866) 405-7557</a>
                     <a href="#contact" class="btn-get-started ml-2">Contact</a>
                     <!-- <a href="#contact" class="btn-watch-video d-flex align-items-center"><span>Contact</span></a> -->
                 </div>
@@ -390,9 +390,9 @@
                     <p class="text-light lead fs-6 mb-0" style="max-width: 800px; color: #cbd5e1 !important; line-height: 1.7;">Looking for dependable internet, television, landline, or mobile solutions? We are at your service! Take advantage of affordable, high-quality, and unified telecom packages today. Reach out now for a smooth and worry-free setup!</p>
                 </div>
                 <div class="col-xl-3 cta-btn-container text-center mt-4 mt-xl-0">
-                    <a class="cta-btn align-middle btn-lg fs-5 px-4 py-3 text-white fw-bold shadow-lg d-inline-flex align-items-center gap-2 justify-content-center" href="tel:123456789" style="background: linear-gradient(135deg, #06b6d4 0%, #2563eb 100%); border-radius: 30px; text-decoration: none; border: none;">
+                    <a class="cta-btn align-middle btn-lg fs-5 px-4 py-3 text-white fw-bold shadow-lg d-inline-flex align-items-center gap-2 justify-content-center" href="tel:+18664057557" style="background: linear-gradient(135deg, #06b6d4 0%, #2563eb 100%); border-radius: 30px; text-decoration: none; border: none;">
                         <i class="bi bi-telephone-fill"></i>
-                        <span>123456789</span>
+                        <span>(866) 405-7557</span>
                     </a>
                 </div>
             </div>
@@ -461,7 +461,7 @@
                         <h3>6. How can I enroll or request a new service?</h3>
                         <div class="faq-content">
                             <p>Getting started is easy! Simply give us a call at the hotline below to speak with an advisor.</p>
-                            <a href="tel:123456789" class="btn btn-primary mt-2">Call Us at 123456789</a>
+                            <a href="tel:+18664057557" class="btn btn-primary mt-2">Call Us at (866) 405-7557</a>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
@@ -485,19 +485,19 @@
             <div class="col-lg-5">
 
                 <div class="info-wrap">
-                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div>
                             <h3>Address</h3>
                             <p>7811 5th Ave #33 Brooklyn, NY 11209</p>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                         <i class="bi bi-telephone flex-shrink-0"></i>
                         <div>
                             <h3>Call Us</h3>
-                            <p>123456789</p>
+                            <p><a href="tel:+18664057557" style="color: inherit; text-decoration: none;">(866) 405-7557</a></p>
                         </div>
                     </div>
 
